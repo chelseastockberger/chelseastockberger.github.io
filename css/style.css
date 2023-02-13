@@ -455,8 +455,8 @@ ul.social_icon li a:hover {
 
 .read_more {
      font-size: 17px;
-     font-family: Hack, monospace;
-     background-color: #00ff0438;
+     /* background-color: #00ff0438; */
+     background-image: url('images/btn.png');
      color: rgb(204, 204, 204);
      padding: 12px 0px;
      width: 100%;
@@ -810,17 +810,17 @@ ul.social_icon li a:hover {
 /** footer **/
 
 .footer {
-     background: #2e2d2d;
-     padding-top: 60px;
+     background: #191725;
+     padding-top: 15%;
      text-align: center;
 }
 
 .footer h3 {
-     font-weight: 600;
+     font-weight: 400;
      font-size: 17px;
      line-height: 19px;
      text-align: left;
-     color: #fff;
+     color: rgb(0, 255, 30);
      padding-bottom: 15px;
      display: table;
      text-transform: uppercase;
@@ -987,3 +987,4 @@ ul.link_menu li a:hover {
 .margin_0 {
      margin: 0 !important;
 }
+
